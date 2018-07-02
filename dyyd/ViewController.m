@@ -23,7 +23,8 @@
                                  @"ip":@"",
                                  @"version":@"new",
                                  };
-//            NSLog(@"params:%@",parameters);
+            NSLog(@"params:%@",parameters);
+    NSLog(@"1231231223");
     NSString *urlStr = @"";
 //    self.view.backgroundColor = [UIColor redColor];
 }
