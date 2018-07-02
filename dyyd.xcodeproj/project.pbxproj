@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CD41BC9B54B43D77707114E /* libPods-dyyd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFFED2514A761F2182C44F3 /* libPods-dyyd.a */; };
+		7CE2CC4C20A2863200CFF8BB /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE2CC4520A2863200CFF8BB /* MBProgressHUD+MJ.m */; };
+		7CE2CC4D20A2863200CFF8BB /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CE2CC4620A2863200CFF8BB /* MBProgressHUD.bundle */; };
 		7CF6C55920A19AE200F2A37D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6C55820A19AE200F2A37D /* AppDelegate.m */; };
 		7CF6C55C20A19AE200F2A37D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6C55B20A19AE200F2A37D /* ViewController.m */; };
 		7CF6C55F20A19AE200F2A37D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF6C55D20A19AE200F2A37D /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 		7CF6C56720A19AE500F2A37D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6C56620A19AE500F2A37D /* main.m */; };
 		7CF6C57120A19AE600F2A37D /* dyydTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6C57020A19AE600F2A37D /* dyydTests.m */; };
 		7CF6C57C20A19AE600F2A37D /* dyydUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6C57B20A19AE600F2A37D /* dyydUITests.m */; };
+		7CFDF97520E33AAD00D3D2D7 /* JSPatchPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFDF97420E33AAD00D3D2D7 /* JSPatchPlatform.framework */; };
+		7CFDF97720E33AEA00D3D2D7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFDF97620E33AEA00D3D2D7 /* libz.tbd */; };
+		7CFDF97920E33AF500D3D2D7 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFDF97820E33AF500D3D2D7 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		610EC5E9D48204D5BC60C02D /* Pods-dyyd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dyyd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dyyd/Pods-dyyd.debug.xcconfig"; sourceTree = "<group>"; };
+		7ABCAB93FA6F25C4CB64EE4C /* Pods-dyyd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dyyd.release.xcconfig"; path = "Pods/Target Support Files/Pods-dyyd/Pods-dyyd.release.xcconfig"; sourceTree = "<group>"; };
+		7CE2CC4420A2863200CFF8BB /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		7CE2CC4520A2863200CFF8BB /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		7CE2CC4620A2863200CFF8BB /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		7CF6C55420A19AE200F2A37D /* dyyd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dyyd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF6C55720A19AE200F2A37D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CF6C55820A19AE200F2A37D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		7CF6C57720A19AE600F2A37D /* dyydUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dyydUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF6C57B20A19AE600F2A37D /* dyydUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dyydUITests.m; sourceTree = "<group>"; };
 		7CF6C57D20A19AE600F2A37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFDF97420E33AAD00D3D2D7 /* JSPatchPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatchPlatform.framework; sourceTree = "<group>"; };
+		7CFDF97620E33AEA00D3D2D7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7CFDF97820E33AF500D3D2D7 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FBFFED2514A761F2182C44F3 /* libPods-dyyd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dyyd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFDF97920E33AF500D3D2D7 /* JavaScriptCore.framework in Frameworks */,
+				7CFDF97720E33AEA00D3D2D7 /* libz.tbd in Frameworks */,
+				2CD41BC9B54B43D77707114E /* libPods-dyyd.a in Frameworks */,
+				7CFDF97520E33AAD00D3D2D7 /* JSPatchPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B66BC2AA05547944B4AAFDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610EC5E9D48204D5BC60C02D /* Pods-dyyd.debug.xcconfig */,
+				7ABCAB93FA6F25C4CB64EE4C /* Pods-dyyd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CE2CC4320A2863200CFF8BB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7CE2CC4420A2863200CFF8BB /* MBProgressHUD+MJ.h */,
+				7CE2CC4520A2863200CFF8BB /* MBProgressHUD+MJ.m */,
+				7CE2CC4620A2863200CFF8BB /* MBProgressHUD.bundle */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		7CF6C54B20A19AE200F2A37D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				7CF6C56F20A19AE600F2A37D /* dyydTests */,
 				7CF6C57A20A19AE600F2A37D /* dyydUITests */,
 				7CF6C55520A19AE200F2A37D /* Products */,
+				7B66BC2AA05547944B4AAFDB /* Pods */,
+				8E8F311FF82266017CB42588 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,8 @@
 		7CF6C55620A19AE200F2A37D /* dyyd */ = {
 			isa = PBXGroup;
 			children = (
+				7CFDF97420E33AAD00D3D2D7 /* JSPatchPlatform.framework */,
+				7CE2CC4320A2863200CFF8BB /* MBProgressHUD */,
 				7CF6C55720A19AE200F2A37D /* AppDelegate.h */,
 				7CF6C55820A19AE200F2A37D /* AppDelegate.m */,
 				7CF6C55A20A19AE200F2A37D /* ViewController.h */,
@@ -132,6 +174,16 @@
 			path = dyydUITests;
 			sourceTree = "<group>";
 		};
+		8E8F311FF82266017CB42588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CFDF97820E33AF500D3D2D7 /* JavaScriptCore.framework */,
+				7CFDF97620E33AEA00D3D2D7 /* libz.tbd */,
+				FBFFED2514A761F2182C44F3 /* libPods-dyyd.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CF6C58020A19AE600F2A37D /* Build configuration list for PBXNativeTarget "dyyd" */;
 			buildPhases = (
+				9F5BB7D520057F601D4DABD9 /* [CP] Check Pods Manifest.lock */,
 				7CF6C55020A19AE200F2A37D /* Sources */,
 				7CF6C55120A19AE200F2A37D /* Frameworks */,
 				7CF6C55220A19AE200F2A37D /* Resources */,
+				9A6726B01794B4C79B989BD4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CF6C56420A19AE500F2A37D /* LaunchScreen.storyboard in Resources */,
+				7CE2CC4D20A2863200CFF8BB /* MBProgressHUD.bundle in Resources */,
 				7CF6C56120A19AE500F2A37D /* Assets.xcassets in Resources */,
 				7CF6C55F20A19AE200F2A37D /* Main.storyboard in Resources */,
 			);
@@ -257,11 +312,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A6726B01794B4C79B989BD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dyyd/Pods-dyyd-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CTAssetsPickerController/CTAssetsPickerController.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/PYPhotoBrowser/PYPhotoBrowser/PYPhotosView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTAssetsPickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYPhotosView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dyyd/Pods-dyyd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5BB7D520057F601D4DABD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dyyd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CF6C55020A19AE200F2A37D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE2CC4C20A2863200CFF8BB /* MBProgressHUD+MJ.m in Sources */,
 				7CF6C55C20A19AE200F2A37D /* ViewController.m in Sources */,
 				7CF6C56720A19AE500F2A37D /* main.m in Sources */,
 				7CF6C55920A19AE200F2A37D /* AppDelegate.m in Sources */,
@@ -431,10 +530,15 @@
 		};
 		7CF6C58120A19AE600F2A37D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610EC5E9D48204D5BC60C02D /* Pods-dyyd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TS287Q5U8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dyyd",
+				);
 				INFOPLIST_FILE = dyyd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +552,15 @@
 		};
 		7CF6C58220A19AE600F2A37D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABCAB93FA6F25C4CB64EE4C /* Pods-dyyd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TS287Q5U8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dyyd",
+				);
 				INFOPLIST_FILE = dyyd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

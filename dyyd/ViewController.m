@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSDictionary *parameters = @{
+                                 @"mac":@"",
+                                 @"userCode":@"",
+                                 @"ipass":@"",
+                                 @"ip":@"",
+                                 @"version":@"new",
+                                 };
+//            NSLog(@"params:%@",parameters);
+    NSString *urlStr = @"";
+//    self.view.backgroundColor = [UIColor redColor];
 }
 
 

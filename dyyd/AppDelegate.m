@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <JSPatchPlatform/JSPatch.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [JSPatch testScriptInBundle];
+    [JSPatch startWithAppKey:@"fee30721b87ef38c"];
+    [JSPatch setupRSAPublicKey:@"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr+OVsOM1BpZj4853vhE2\nAIzUWSiiE9+QASKhrxO4+OoKNfiFb9aNnTNlt8qmE/pwdJIiqC5WIrKJuiZAQFmq\nbb21IO5woDlPIMZOmftgjuBDwW4AlOUM4FS1SdBhZTw8ZnEnHSEpotgBsoRvPW4d\nrU2nUwGtwHkTw1sWjzxYp70U2WM3eW8JmJ9ogW9z6N8KO/ZskH+WXmAcFRPi0uLk\nRMcEyW0zcjrX/ebUAjmD61p1uXCpU74COmS5UX8g+qkkHN3TGgx21QNU0R/IMc2M\nm984RMEHJiEDUElivIBn8f02TD5hythAPoThz+ekTHAKh9wOQd0OZv/6qx/dIRC4\nYwIDAQAB\n-----END PUBLIC KEY-----"];
+   
+    
     return YES;
 }
 
@@ -40,6 +45,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+     [JSPatch sync];
 }
 
 
